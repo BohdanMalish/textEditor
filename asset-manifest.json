@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/textEditor/static/css/main.61324a89.chunk.css",
-    "main.js": "/textEditor/static/js/main.2c341a74.chunk.js",
-    "main.js.map": "/textEditor/static/js/main.2c341a74.chunk.js.map",
+    "main.js": "/textEditor/static/js/main.ec63034c.chunk.js",
+    "main.js.map": "/textEditor/static/js/main.ec63034c.chunk.js.map",
     "runtime-main.js": "/textEditor/static/js/runtime-main.85bd4884.js",
     "runtime-main.js.map": "/textEditor/static/js/runtime-main.85bd4884.js.map",
     "static/js/2.02dea819.chunk.js": "/textEditor/static/js/2.02dea819.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.b7eea2f4.chunk.js.map": "/textEditor/static/js/3.b7eea2f4.chunk.js.map",
     "index.html": "/textEditor/index.html",
     "static/css/main.61324a89.chunk.css.map": "/textEditor/static/css/main.61324a89.chunk.css.map",
-    "static/js/2.02dea819.chunk.js.LICENSE.txt": "/textEditor/static/js/2.02dea819.chunk.js.LICENSE.txt"
+    "static/js/2.02dea819.chunk.js.LICENSE.txt": "/textEditor/static/js/2.02dea819.chunk.js.LICENSE.txt",
+    "static/media/Bold.d32086de.png": "/textEditor/static/media/Bold.d32086de.png"
   },
   "entrypoints": [
     "static/js/runtime-main.85bd4884.js",
     "static/js/2.02dea819.chunk.js",
     "static/css/main.61324a89.chunk.css",
-    "static/js/main.2c341a74.chunk.js"
+    "static/js/main.ec63034c.chunk.js"
   ]
 }
