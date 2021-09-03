@@ -4,6 +4,8 @@ import DropdownMenu from "./DropdownMenu";
 import backColor from "../constants/BackColor";
 import fontColor from "../constants/FontColor";
 import fontsize from "../constants/FontSize";
+import bold from "../images/Bold.png"
+import italic from "../images/Italic.png";
 const TextEditor = () => {
   const myContainer = createRef();
   useEffect(() => {
@@ -57,14 +59,14 @@ const TextEditor = () => {
               changeToBoldStyle();
             }}
           >
-            <img src="/images/Bold.png" alt="bold"></img>
+            <img src={bold} alt="bold"></img>
           </li>
           <li
             onClick={() => {
               changeToItalicStyle();
             }}
           >
-            <img src="/images/Italic.png" alt="Italic"></img>
+            <img src={italic} alt="Italic"></img>
           </li>
           <li>
             <DropdownMenu
