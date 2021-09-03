@@ -7,7 +7,6 @@ const DropdownMenu = ({ lstData, onchange, defaultValue }) => {
     const value = e.target.value;
     onchange(value);
   };
-  console.log(lstData);
   return (
     <>
       <form
@@ -17,7 +16,11 @@ const DropdownMenu = ({ lstData, onchange, defaultValue }) => {
       >
         <select defaultValue={defaultValue}>
           {lstData?.map((element) => {
-            return <option value={element}>{element}</option>;
+            return (
+              <option key={element} value={element}>
+                {element}
+              </option>
+            );
           })}
         </select>
       </form>

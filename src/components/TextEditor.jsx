@@ -24,7 +24,7 @@ const TextEditor = () => {
   const resizeText = async (size) => {
     document.execCommand("fontSize", false, size);
   };
- /* const convertToJson = () => {
+  /* const convertToJson = () => {
     const Json = document.getElementById("editorSpace");
     const elements = Json.children;
     const nodes = [];
@@ -87,9 +87,7 @@ const TextEditor = () => {
               defaultValue={"white"}
             ></DropdownMenu>
           </li>
-          <li>
-            Convert to Json
-          </li>
+          <li>Convert to Json</li>
         </ul>
       </div>
       <div ref={myContainer} id="editorSpace"></div>
