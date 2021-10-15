@@ -1,0 +1,47 @@
+.headerContainer{
+    display:flex;
+    height: 80px;
+    background-color: cadetblue;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.lineContainer{
+    display: flex;
+}
+.headerElement{
+    margin-right: 150px;
+    font-size: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: 500;
+}
+.headerElement:hover{
+color:black;
+}
+.Home{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+.Cart img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ProductsCart{
+    position: absolute;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 400px;
+    top:110px;
+    right: 10px;
+    height: 500px;
+}
+.ElementCart{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
